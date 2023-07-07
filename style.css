@@ -1,0 +1,59 @@
+body {
+  background-image: url("station.jpg");
+  background-size: cover;
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-container {
+  border: 1.5px solid rgb(173, 123, 123);
+  width: 40%;
+  background-color: white;
+  opacity: 70%;
+  margin: auto;
+  padding: 1%;
+  margin-top: 100px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.btns {
+  text-align: center;
+}
+
+.increment-btn {
+  background-color: rgb(93, 150, 93);
+}
+
+.increment-btn:hover {
+  background-color: rgb(150, 80, 80);
+}
+
+.save-btn {
+  background-color: rgb(93, 150, 93);
+}
+
+.save-btn:hover {
+  background-color: rgb(61, 50, 50);
+}
+
+@media (max-width: 675px) {
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .increment-btn,
+  .save-btn {
+    width: auto;
+  }
+}
